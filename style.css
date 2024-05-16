@@ -1,0 +1,372 @@
+/* all css */
+body {
+    background-color: #F1EFE7;
+    font-family: "Baskervville";
+}
+
+td, tr {
+    border: 5px solid;
+}
+
+hr {
+    height: 3px;
+    background-color: #694E52;
+}
+
+/* header */
+.container {
+    display: flex; 
+    border: 2px solid;
+    flex-wrap: wrap;
+}
+
+.link {
+    margin-left: 15px;
+    font-weight: bold; 
+    text-align: center;
+    color: #694E52; 
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.boxLogo {
+  border: 1px solid #ccc;..
+}
+
+.boxNav {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.boxSearch {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+.logo {
+    box-sizing: border-box;
+    width: 166px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSearch {
+    border-radius: 20px; 
+    padding: 8px 16px; 
+    font-size: 16px; 
+    outline: none;
+    margin-top: -170px;
+}
+
+.inputSearch:focus {
+    border: 1px solid #ccc;
+    border-color: #007bff; 
+}
+
+.btnSearch {
+    display: inline-block;
+    border-radius: 20px;
+    width: 5%;
+    cursor: pointer;
+    background-color: #F1EFE7;
+    color: #694E52;
+    border: 3px solid;
+    border-color: #694E52;
+    font-size: 150%;
+    font-family: "Baskervville";
+    text-decoration: none;
+}
+
+.btnSearch:hover {
+    background-color: #694E52;
+    color: #F1EFE7;
+}
+
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 600px;
+  background-color: #694E52;
+  color: #F1EFE7;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -350%;
+  left: 50%;
+  margin-left: -290px;
+  font-size: 50%;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #694E52 transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Index CSS */
+.indexBody {
+	background-color: #F1EFE7;
+	font-family: "Baskervville";
+}
+
+/* Index header */
+.indexContainer {
+    display: flex;
+}
+
+.indexBox1 {
+    flex-basis: 100%;
+  	font-size: 210%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    margin-left: 45px;
+}
+
+.indexBox2 {
+    flex-basis: 100%;
+    font-size: 200%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.indexBox3 {
+    flex-basis: 100%;
+    font-size: 210%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -5px;
+    margin-left: -120px;
+    margin-right: 50px;
+    width: 20px;
+    display: flex;
+}
+
+.indexLogo {
+	box-sizing: border-box;
+  	width: 166px;
+  	height: 70px;
+  	display: flex;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.indexSearch {
+	width: 60px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: -8px;
+    margin-left: 15px;
+}
+
+.indexLink {
+    margin-left: 20px;
+    font-weight: bold; 
+    text-align: center;
+    color: #694E52; 
+    text-decoration: none;
+}
+
+.indexLink2 {
+    margin-left: 20px;
+    font-weight: bold; 
+    text-align: center;
+    color: #694E52; 
+    text-decoration: none;
+}
+
+.indexLink:hover, .indexLink2:hover 
+{
+    text-decoration: underline;
+}
+
+/* Index body */
+.indexBg{
+	display: flex;
+  	width: 100%;
+  	height: auto;
+}
+
+.indexShopNow {
+    display: inline-block;
+    border-radius: 20px;
+    width: 25%;
+    cursor: pointer;
+    background-color: #F1EFE7;
+    color: #694E52;
+    border: 3px solid;
+    border-color: #694E52;
+    font-size: 200%;
+    font-family: "Baskervville";
+    margin-top: -4%;
+    text-decoration: none;
+}
+
+.indexShopNow:hover {
+    background-color: #694E52;
+    color: #F1EFE7;
+ 
+}
+
+.indexH1 {
+	letter-spacing: 5px;
+    font-size: 450%;
+    font-weight: bold; 
+    text-align: center;
+    color: #F1EFE7; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.tagline 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    margin-top: 10%;
+}
+
+/* Home CSS */
+/* Home body */
+.homeMember {
+    display: block;
+  	width: 100%;
+  	height: auto; 
+}
+
+.homeVid {
+    display: block;
+  	width: 100%;
+  	height: auto; 
+}
+
+.homeH1 {
+    font-size: 200%;
+    font-weight: bold; 
+    text-align: center;
+    color: #694E52; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Home gallery */
+.homeContainer {
+
+}
+
+.homeBox {
+
+}
+
+.homeGallery {
+
+}
+
+/* Home why lailey */
+.homeTable {
+	width: 100%;
+}
+
+.homeLogo {
+
+}
+
+.homeP1 {
+
+}
+
+.homeLink {
+
+}
+
+/* Home audio */
+.homeP2 {
+
+}
+
+.homeAudio {
+
+}
+
+/* Products CSS */
+/* Products body */
+.productsTable {
+	width: 100%;
+}
+
+.productsLogo {
+
+}
+
+.productsContainer1 {
+	border: 5px solid; 
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.productsTable
+.productsTable
+.productsTable
+.productsTable
+.productsTable
